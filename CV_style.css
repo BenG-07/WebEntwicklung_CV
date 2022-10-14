@@ -1,0 +1,122 @@
+header {
+    background-color: pink;
+}
+
+header > div, nav {
+    background-color: seashell;
+    margin: 20px;
+}
+
+header > nav {
+    border-bottom: 1px solid black;
+}
+
+.ProgrammingLanguages > li {
+    display: inline;
+}
+
+.ProgrammingLanguage:after {
+    content: "|";
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+header > div > h1 {
+    font-size: 1800%;
+    overflow-wrap: break-word;
+    display: inline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: -webkit-linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-color: lightslategray;
+    padding: 0;
+    margin: 0;
+}
+
+body > section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.AboutMe {
+    text-align: center;
+    font-size: 400%;
+}
+
+.WorkExperience {
+    font-size: 250%;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: 1px solid black;
+    font-size: larger;
+}
+
+footer > div {
+    height: 60px;
+}
+
+.NavFooter {
+    background-color: #333;
+    opacity: 0.5;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.NavFooter:hover {
+    opacity: 1;
+}
+
+.NavFooter_activator:checked ~ .NavFooter {
+    opacity: 1;
+}
+
+.SocialButton {
+    border-radius: 15px;
+    padding: 1em;
+    color: grey;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+.SocialButton:hover {
+    color: pink;
+    
+}
+
+.SocialImage {
+    height: 90%;
+    vertical-align: middle;
+    margin: 3px;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+.WIP {
+    font-size: 1000%;
+}
